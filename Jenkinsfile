@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 def config = [
-    scriptVersion          : 'v7',
+    scriptVersion          : 'bugfix/github-push-head',
     iqOrganizationName     : 'Team AOS',
     pipelineScript         : 'https://git.aurora.skead.no/scm/ao/aurora-pipeline-scripts.git',
     sonarQube              : true,
@@ -13,7 +13,7 @@ def config = [
     createBuildEnvs        : { props -> "REACT_APP_BUILD_VERSION=${props.version}" },
     github                 : [
       enabled              : true,
-      push                 : env.BRANCH_NAME == "master",
+      push                 : true,
       repoUrl              : "https://github.com/Skatteetaten/frontend-components.git",
       deployToGHPagesCmd   : "npm run deploy:gh-pages"
     ]
