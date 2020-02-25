@@ -1,3 +1,7 @@
+### **v.3.2.1 - 25.02.2020 **
+
+- CI/CD pipeline fix
+
 ### **v.3.2.0 - 25.02.2020 **
 
 - OpenClose: new component
