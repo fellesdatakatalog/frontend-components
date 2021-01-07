@@ -27,7 +27,7 @@
     "@uifabric/merge-styles": "7.11.1",
     "@uifabric/styling": "7.12.0",
     "@uifabric/utilities": "7.16.0",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "classnames": "2.2.6",
     "hotkeys-js": "3.8.1",
     "i18next": "19.7.0",
